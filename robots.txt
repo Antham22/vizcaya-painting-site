@@ -1,0 +1,5 @@
+# https://www.vizcayapainting.com
+User-agent: *
+Allow: /
+
+Sitemap: https://www.vizcayapainting.com/sitemap.xml
