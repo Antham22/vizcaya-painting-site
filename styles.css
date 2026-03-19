@@ -2,6 +2,8 @@
   --primary-teal: #1b6b6b;
   --dark-teal: #155050;
   --gold-accent: #c8952a;
+  /* Same gold hue, lighter for 1px rules on white */
+  --gold-accent-soft: rgba(200, 149, 42, 0.48);
   --bg: #ffffff;
   --light-gray: #f7f7f7;
   --body-text: #333333;
@@ -240,7 +242,7 @@ header.site-header {
   color: var(--dark-teal);
   background: transparent;
   border: none;
-  border-bottom: 1px solid var(--gold-accent);
+  border-bottom: 1px solid var(--gold-accent-soft);
 }
 
 .mobile-menu a:last-child {
