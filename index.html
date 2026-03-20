@@ -47,13 +47,18 @@
         "legalName": "Vizcaya Painting LLC",
         "url": "https://www.vizcayapainting.com/",
         "telephone": "+1-305-615-5868",
+        "email": "hello@vizcayapainting.com",
         "description": "Licensed and insured exterior painting contractor serving Miami-Dade County and South Florida. Residential repaints, free estimates.",
         "areaServed": {
           "@type": "AdministrativeArea",
           "name": "Miami-Dade County"
         },
         "image": "https://www.vizcayapainting.com/logo.png",
-        "priceRange": "$$"
+        "priceRange": "$$",
+        "sameAs": [
+          "https://www.facebook.com/profile.php?id=61577503705276",
+          "https://www.instagram.com/vizcayapainting"
+        ]
       }
     </script>
 
@@ -477,15 +482,22 @@
         <div class="container">
           <h2 class="section-heading">Get Your Free Estimate</h2>
           <div class="subtle-divider" aria-hidden="true"></div>
-          <p class="contact-subheading">Call or Text: (305) 615-5868</p>
+          <p class="contact-subheading">
+            Call or Text:
+            <a class="contact-link" href="tel:+13056155868">(305) 615-5868</a>
+          </p>
+          <p class="contact-subheading contact-email">
+            Email:
+            <a class="contact-link" href="mailto:hello@vizcayapainting.com">hello@vizcayapainting.com</a>
+          </p>
           <p class="contact-bilingual">We speak English and Spanish — Hablamos español</p>
 
           <div class="contact-grid">
             <div class="form-card" id="estimate-form-card">
-              <!-- FormSubmit: replace replace-me@example.com with your real inbox, then confirm via FormSubmit’s first email -->
+              <!-- FormSubmit: confirm hello@vizcayapainting.com on first submission if not already done -->
               <form
                 id="estimate-form"
-                action="https://formsubmit.co/replace-me@example.com"
+                action="https://formsubmit.co/hello@vizcayapainting.com"
                 method="POST"
                 novalidate
               >
@@ -562,29 +574,55 @@
           <div class="footer-col">
             <h3>VIZCAYA PAINTING</h3>
             <div class="footer-contacts">
-              <div>(305) 615-5868 | Hablamos Español</div>
+              <div>
+                <a href="tel:+13056155868">(305) 615-5868</a>
+                <span aria-hidden="true"> | </span>
+                Hablamos Español
+              </div>
+              <div>
+                <a href="mailto:hello@vizcayapainting.com">hello@vizcayapainting.com</a>
+              </div>
               <div style="color: rgba(255, 255, 255, 0.78); font-weight: 700">Free Estimates Available</div>
             </div>
 
-            <div class="footer-links" aria-label="Social links">
-              <a class="social-link" href="#" aria-label="Facebook">
+            <div class="footer-links" aria-label="Social and email links">
+              <a
+                class="social-link"
+                href="https://www.facebook.com/profile.php?id=61577503705276"
+                aria-label="Vizcaya Painting on Facebook"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
                   <path
                     d="M22 12a10 10 0 1 0-11.5 9.9v-7H8.1V12h2.4V9.8c0-2.4 1.4-3.8 3.7-3.8 1.1 0 2.2.2 2.2.2v2.4h-1.2c-1.2 0-1.6.7-1.6 1.5V12h2.7l-.4 2.9h-2.3v7A10 10 0 0 0 22 12z"
                   />
                 </svg>
               </a>
-              <a class="social-link" href="#" aria-label="Instagram">
+              <a
+                class="social-link"
+                href="https://www.instagram.com/vizcayapainting"
+                aria-label="Vizcaya Painting on Instagram"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
                 <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
                   <path
                     d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm10 2c1.7 0 3 1.3 3 3v10c0 1.7-1.3 3-3 3H7c-1.7 0-3-1.3-3-3V7c0-1.7 1.3-3 3-3h10zm-5 3.3A3.7 3.7 0 1 0 15.7 11 3.7 3.7 0 0 0 12 7.3zm0 2A1.7 1.7 0 1 1 10.3 11 1.7 1.7 0 0 1 12 9.3zM17.7 6.8a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"
                   />
                 </svg>
               </a>
-              <a class="social-link" href="#" aria-label="LinkedIn">
+              <a
+                class="social-link"
+                href="mailto:hello@vizcayapainting.com"
+                aria-label="Email hello@vizcayapainting.com"
+              >
                 <svg class="social-icon" viewBox="0 0 24 24" aria-hidden="true">
                   <path
-                    d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM0.5 8.5H4.5V24H0.5V8.5zM8.5 8.5H12.3V10.6h.1c.5-1 1.9-2.1 3.9-2.1 4.2 0 5 2.8 5 6.4V24h-4v-7.6c0-1.8 0-4.1-2.5-4.1s-2.9 2-2.9 4V24h-4V8.5z"
+                    d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.93 5.49a3 3 0 01-3.14 0L1.5 8.67z"
+                  />
+                  <path
+                    d="M22.5 6.91V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.16l9.71 5.98a1.5 1.5 0 001.57 0l9.72-5.98z"
                   />
                 </svg>
               </a>

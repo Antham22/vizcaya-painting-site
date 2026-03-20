@@ -671,6 +671,20 @@ header.site-header {
   font-size: 1.08rem;
 }
 
+.contact-email {
+  margin-top: -0.15rem;
+}
+
+#contact .contact-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200, 149, 42, 0.45);
+}
+
+#contact .contact-link:hover {
+  border-bottom-color: var(--gold-accent);
+}
+
 .contact-bilingual {
   text-align: center;
   color: var(--muted-text);
@@ -826,6 +840,17 @@ footer.site-footer {
   color: rgba(255, 255, 255, 0.92);
   font-weight: 600;
   line-height: 1.5;
+}
+
+.footer-contacts a {
+  color: var(--gold-accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(200, 149, 42, 0.45);
+  font-weight: 700;
+}
+
+.footer-contacts a:hover {
+  border-bottom-color: var(--gold-accent);
 }
 
 .footer-links {
