@@ -232,7 +232,7 @@ header.site-header {
   gap: 0.75rem;
 }
 
-.mobile-menu a {
+.mobile-menu a:not(.mobile-menu-cta) {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,12 +245,29 @@ header.site-header {
   border-bottom: 1px solid var(--gold-accent-soft);
 }
 
-.mobile-menu a:last-child {
+.mobile-menu a:not(.mobile-menu-cta):last-child {
   border-bottom: none;
 }
 
-.mobile-menu a:hover {
+.mobile-menu a:not(.mobile-menu-cta):hover {
   color: var(--primary-teal);
+}
+
+/* Shown only when header #header-cta is hidden (narrow screens) */
+.mobile-menu-cta {
+  display: none;
+  margin-top: 0;
+  margin-bottom: 0.15rem;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+}
+
+@media (max-width: 720px) {
+  .mobile-menu-cta {
+    display: flex;
+  }
 }
 
 /* Mobile header layout */
